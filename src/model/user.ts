@@ -19,6 +19,7 @@ export interface Node {
     readonly follows_viewer: boolean;
     readonly requested_by_viewer: boolean;
     readonly reel: Reel;
+    engagementScore?: number;
 }
 
 export interface Reel {
